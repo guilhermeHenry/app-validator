@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Validator</title>
+</head>
+<body>
+	<style>
+		body{font-family: roboto;}
+		form{width: 400px; margin: 80px auto; background-color: #fafafa; padding: 50px 30px 40px 30px; display: flex; flex-direction: column;}
+		form > div{margin-bottom: 15px;}
+		form > div{display: grid; grid-template-columns: 50px 1fr; grid-column-gap: 5px;}
+		form input{width: 100%; padding: 3px; font-size: 16px;}
+		form span{padding: 3px 0;}
+		form footer{text-align: center; padding-top: 30px;}
+		form button{padding: 8px 70px; cursor: pointer;}
+	</style>
+
+	<form name="form" action="create">
+		<div>
+			<span>Nome</span>
+			<label>
+				<input type="text" name="name" value="John Smith">
+			</label>
+		</div>
+		<div>
+			<span>Senha</span>
+			<label>
+				<input type="password" name="password" value="525243255">
+			</label>
+		</div>
+		<div>
+			<span>Email</span>
+			<label>
+				<input type="email" name="email" value="email.official@gmail.com">
+			</label>
+		</div>
+		<footer>
+			<button>Enviar</button>
+		</footer>
+	</form>
+
+	<script type="module">
+		import Validator from "./modules/app.js";
+		new Validator({
+	        password: 'min:8'
+		});
+	</script>
+</body>
+</html>

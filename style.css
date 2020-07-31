@@ -1,0 +1,155 @@
+body{font-family: roboto;}
+
+form{
+	width: 460px;
+	margin: 50px auto;
+	display: flex;
+	flex-direction: column;
+}
+
+form .item{
+	display: grid;
+	grid-column-gap: 10px;
+	grid-template-columns: 100px 1fr;
+	margin: 10px 0;
+}
+
+form .item span{font-size: 16px; text-align: right; line-height: 29px; height: 27px; grid-row: 2 span;}
+form input,
+form textarea{padding: 5px; border-radius: 3px; border: 1px solid #d8d8d8;}
+form input:focus, form textarea:focus{border-color: #4C87FF; box-shadow: 0 0 5px #00AEFF;}
+
+form input[type="file"]{cursor: pointer;}
+
+form footer{padding: 10px 5px; text-align: right;}
+form button{cursor: pointer;}
+
+.warning{padding-left: 15px;}
+.warning li{padding-bottom: 3px; font-weight: 700px; font-size: 14px; color: #666;}
+
+.failed .form_required{background-color: #E8F0FE;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
