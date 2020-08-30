@@ -1,4 +1,4 @@
-export default {
+module.exports = {
     address   : "endereço",
     age       : "idade",
     body      : "conteúdo",

@@ -1,4 +1,4 @@
-export default function () {
+module.exports = function () {
 	if (!this.param){console.warn('Parâmetro é obrigatório'); return}
 	if (!this.target){console.warn('Target é obrigatório'); return}
 

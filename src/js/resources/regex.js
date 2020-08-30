@@ -1,4 +1,4 @@
-export default {
+module.exports = {
 	numeric: /^[0-9]+$/,
 	url:     /[a-zA-z]+:\/\/[^\s]/,
     money:   /^(0|[1-9]\d*)(\.\d+)?$/,

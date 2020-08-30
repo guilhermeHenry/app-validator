@@ -1,4 +1,4 @@
-export default function(input, msg = null) {
+module.exports = function(input, msg = null) {
 	let ul = null;
 	let li = null;
 	let nameID = 'msg-message-' + input.getAttribute('name');

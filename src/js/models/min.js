@@ -1,4 +1,4 @@
-export default function () {
+module.exports = function () {
 	let type = this.element.getAttribute('type');
 	let value = this.element.value;
 	let min = parseInt(this.param);

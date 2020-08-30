@@ -1,6 +1,6 @@
-import handle from './handle.js';
+const handle = require('./handle.js');
 
-export default function(field, rules, callback = null) {
+module.exports = function(field, rules, callback = null) {
 	let errors = [];
 	
 	if (!rules){console.warn('Passe as regras por parâmetro!'); return}

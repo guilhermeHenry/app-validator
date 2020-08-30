@@ -1,4 +1,4 @@
-export default function () {
+module.exports = function () {
 	if (!this.param){console.warn('Parâmetro é obrigatório'); return}
 
 	let param = this.param ? this.param.replace(/\(|\)/g, '') : null; /** 10 */

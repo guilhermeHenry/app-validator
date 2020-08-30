@@ -1,9 +1,9 @@
-import regexs from './resources/regex.js';
-import templates from './resources/messages.js';
+const regexs = require('./resources/regex.js');
+const templates = require('./resources/messages.js');
 
 // ## MODELS
-import min from './models/min.js';
-import max from './models/max.js';
+const min = require('./models/min.js');
+const max = require('./models/max.js');
 
 const handle = {
 	set value(value){this.val = value},
@@ -53,4 +53,4 @@ handle.required = function (){
 	return !verify ? true : false;
 }
 
-export default handle;
+module.exports = handle;
