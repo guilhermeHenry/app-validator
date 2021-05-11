@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/guilhermeHenry/app-validator#readme",
   "dependencies": {
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.21"
   }
 }
